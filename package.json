@@ -1,0 +1,8 @@
+{
+  "name": "@seracio/types-jwt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/seracio/types-jwt.git",
+  "author": "nmondon <nicolasmondon@gmail.com>",
+  "license": "MIT"
+}
