@@ -1,8 +1,15 @@
 {
-  "name": "@seracio/types-jwt",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/seracio/types-jwt.git",
-  "author": "nmondon <nicolasmondon@gmail.com>",
-  "license": "MIT"
+    "name": "@seracio/types-jwt",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/seracio/types-jwt.git",
+    "author": "nmondon <nicolasmondon@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "flow-bin": "^0.66.0",
+        "flow-copy-source": "^1.3.0"
+    },
+    "scripts": {
+        "prepublishOnly": "flow-copy-source"
+    }
 }
