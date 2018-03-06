@@ -1,7 +1,7 @@
 // @flow
-type Credential {
+type Credential = {
     username: string,
-    password: string,
+    password: string
 };
 
-export type {Credential}
+export type { Credential };
